@@ -1,0 +1,12 @@
+# Default application name
+spring:
+  application:
+    name: transformer-service
+
+  # Profile for this properties file
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
+
+########################################
+# Values used for all environments here
+########################################
